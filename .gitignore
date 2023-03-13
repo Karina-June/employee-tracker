@@ -1,3 +1,1 @@
-DB_NAME='tracker_db'
-DB_PASSWORD='BlackeysLover!09'
-DB_USER='root'
+.env
