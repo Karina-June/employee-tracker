@@ -11,13 +11,13 @@ VALUES  ("Sales Lead", 120000, 01),
         ("Software Engineer", 130000, 02),
         ("Account Manager", 155000, 03),
         ("Accountant", 110000, 03),
-        ("Legal Team Lead", 350000, 04)
+        ("Legal Team Lead", 350000, 04),
         ("Lawyer", 225000, 04);
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES  ("Aragorn", "Strider", 1, NULL),
-        ("Legolas", "Green", 3, NULL),
-        ("Gamil", "Zirak", 5, NULL),
+        ("Legolas", "Greenleaf", 3, NULL),
+        ("Gimli", "SonofGloin", 5, NULL),
         ("Gandalf", "White", 7, NULL);
 
 SELECT * FROM employee;
@@ -25,7 +25,7 @@ SELECT * FROM employee;
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES  ("Frodo", "Baggins", 2, 1),
         ("Samwise", "Gamgee", 4, 3),
-        ("Meriadoc", "Brandybuck", 6, 5),
-        ("Peregrin", "Took", 8, 7)
+        ("Merry", "Brandybuck", 6, 5),
+        ("Pippin", "Took", 8, 7)
 
 
