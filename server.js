@@ -53,6 +53,7 @@ const startFirstPrompt = () => {
                 case "Add Department":
                     break;
             }
+            startFirstPrompt()
         })
 };
 
