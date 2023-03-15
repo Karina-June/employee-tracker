@@ -27,5 +27,3 @@ VALUES  ("Frodo", "Baggins", 2, 1),
         ("Samwise", "Gamgee", 4, 3),
         ("Merry", "Brandybuck", 6, 5),
         ("Pippin", "Took", 8, 7)
-
-
